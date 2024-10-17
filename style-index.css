@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.mb-3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    position: relative; /* Para o link ocupar todo o espaço da div */
+}
+
+.event {
+    background-color: green;
+    color: white;
+}
+
+/* Aumenta o tamanho do link */
+.day a {
+    display: block; /* Faz com que o link ocupe toda a área da div */
+    height: 100%; /* Faz o link preencher a altura da div */
+    width: 100%; /* Faz o link preencher a largura da div */
+    text-decoration: none; /* Remove o sublinhado */
+    color: inherit; /* Faz o texto do link herdar a cor do elemento pai */
+    line-height: 100px; /* Centraliza verticalmente o texto */
+}
+
+
+
+.event:hover {
+    background-color: #218838; /* Escurecer a cor ao passar o mouse */
+}

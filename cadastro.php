@@ -24,7 +24,7 @@
                 </tr>
                 <tr>
                     <td>Informe a hora de incio do evento</td>
-                    <td><input size='15px' name='hr_inicio_evet'></td>
+                    <td><input size='15px' name='hr_inicio_event'></td>
                 </tr>
                 <tr>
                     <td>Informe a hora de finalização do evento</td>
